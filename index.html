@@ -1,13 +1,36 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Assignment 2 - Leyla Novini</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Nosifer" rel="stylesheet">
 </head>
-<body>
-<script type="text/javascript" src="js/main.js" async></script>
+<body> 
+    <div id="main">
+    	<img class="donkey" src="img/donkey.jpg" width="50px" alt="donkey"/>
+    	<img class="elephant" src="img/elephant.jpg" height="50px" alt="elephant"/>
+        <h1>Who would you vote as our next President?</h1>
+        <div id="grid"></div>
+        <div id="myModal" class="modal">
+            <div class="modalContent">
+              <span class="open"> X </span>
+              <div class="info">
+              	<div class="pic"></div>
+                <div class="id"></div>
+                <div class="name"></div>
+                <div class="email"></div>
+                <div class="exerpt"></div>
+                <div class="profile_picture"></div>
+                <div class="links"></div>
+              </div>
+        	</div>
+    	</div>
+    	<h1>Honestly, anyone on this list is more qualified than <span class="ew">Trump</span>.</h1>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js" ></script>
+    <script type="text/javascript" src="js/simplemodal.js" ></script>
 </body>
 </html>
